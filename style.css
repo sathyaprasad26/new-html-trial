@@ -1,4 +1,44 @@
-p{
-    color:red;
-    background-color: lightblue;
+*{
+    box-sizing: border-box;
 }
+body{
+    font-family: verdana, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;;
+}
+.container{
+   background-color: #f2f2f2;
+padding: 5px 20px 15px 20px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+input[type =text], input[type=password], input[type=email], input[type=tel],input[type=date],input[type=number], select, textarea,fieldset 
+{
+  width: 100%;
+  padding: 12px;
+  border :1px solid #ccc; 
+  background-color: white;
+}
+h1{
+    text-align: center;
+}
+button[type=submit]{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px ;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    width: 100% ;
+   }
+textarea{
+    width:100%;
+}
+label,legend{
+    font-weight: 500;
+    display: block;
+    margin-bottom: 8px;
+}
+
